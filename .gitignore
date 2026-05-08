@@ -16,9 +16,11 @@ venv/
 env/
 .venv/
 
-# 데이터/산출물 (런타임 생성)
-uploads/
-outputs/
+# 데이터/산출물 (런타임 생성, 디렉토리는 유지)
+uploads/*
+!uploads/.gitkeep
+outputs/*
+!outputs/.gitkeep
 
 # IDE
 .vscode/
