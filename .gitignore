@@ -1,0 +1,33 @@
+# 환경 변수
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+
+# 가상환경
+venv/
+env/
+.venv/
+
+# 데이터/산출물 (런타임 생성)
+uploads/
+outputs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml

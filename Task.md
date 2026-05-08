@@ -14,19 +14,19 @@
   - 예상 기간: 0.5일
   - 상태: 완료
 
-- [ ] **T-002** 개발 환경 세팅
+- [x] **T-002** 개발 환경 세팅
   - 설명: Python 가상환경 생성, requirements.txt 작성 (`anthropic`, `streamlit`, `pandas`, `numpy`, `matplotlib`, `seaborn`, `plotly`, `python-dotenv`, `openpyxl`), 패키지 설치 검증.
   - 담당: A
   - 의존성: 없음
   - 예상 기간: 0.5일
-  - 상태: 미시작
+  - 상태: 완료
 
-- [ ] **T-003** Git 저장소 초기화
+- [x] **T-003** Git 저장소 초기화
   - 설명: Git init, .gitignore 작성 (`.env`, `__pycache__`, `uploads/`, `outputs/`, `venv/`), `.env.example` 작성 (`ANTHROPIC_API_KEY=your-api-key-here`), 초기 커밋, GitHub 원격 저장소 생성 및 연결.
   - 담당: A
   - 의존성: T-002
   - 예상 기간: 0.5일
-  - 상태: 미시작
+  - 상태: 완료
 
 - [ ] **T-004** 디렉토리 구조 생성 및 __init__.py 배치
   - 설명: `modules/__init__.py` 생성. 각 디렉토리(`pages/`, `modules/`, `templates/`, `uploads/`, `outputs/`)에 필요한 초기 파일 배치. `app.py` 빈 파일 생성.
